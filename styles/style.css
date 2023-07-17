@@ -14,12 +14,13 @@ body {
     display: flex;
     justify-content: flex-end;
     color: #7F8489;
-    gap: 1550px;
   }
   #leftNav span{
     padding: 10px;
   }
   #leftNav {
+    position: absolute;
+    left: 30px;
     display: flex;
   }
   #rightNav span{
