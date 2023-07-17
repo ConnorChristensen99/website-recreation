@@ -1,0 +1,143 @@
+body {
+    background-color: #202124;
+    font-family: 'Product Sans', sans-serif;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+  /* NAV STYLING */
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #7F8489;
+    gap: 1550px;
+  }
+  #leftNav span{
+    padding: 10px;
+  }
+  #leftNav {
+    display: flex;
+  }
+  #rightNav span{
+    padding: 10px;
+  }
+  #rightNav {
+    display: flex;
+  }
+  .google_apps {
+    margin-bottom: -5px;
+  }
+  .profile {
+    margin-top: -5px;
+  }
+  /* MAIN */
+  header {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #headerImage {
+    display: flex;
+    justify-content: center;
+  }
+  image {
+    width: 100%;
+    height: auto;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #input_container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  input[type="text"] {
+    width: 600px;
+    padding: 5px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+    margin-top: 25px;
+    color: white;
+  }
+
+ .search, .camera, .microphone {
+    color: #7F8489;
+    font-size: larger;
+    padding: 10px;
+ }
+ .search {
+    position: relative; 
+    left:50px;
+    top: 3px; 
+ }
+ .camera {
+    position: relative; 
+    right: 85px;
+    top: 3px; 
+ }
+ .microphone {
+    position: relative; 
+    right: 90px;
+    top: 3px;  
+ }
+  input[type="submit"] {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .searchButton {
+    background-color: #303134;
+    color: white;
+    border: none;
+    font-family: 'Product Sans Thin', sans-serif;
+  }
+  #searchButtons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .belowButtons {
+    color: rgb(212, 212, 212);
+    font-size: small;
+  }
+  .belowButtons a {
+    text-decoration: none;
+    color: rgb(106, 156, 230);
+  }
+  /* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #171717;
+    width: 99%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #9c9c9c;
+}
+#leftSide span {
+    padding: 10px;
+}
+#rightSide span {
+    padding: 10px;
+}
+#middle {
+    padding-bottom: 5px;
+}
+.leaf {
+    font-size: small;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
